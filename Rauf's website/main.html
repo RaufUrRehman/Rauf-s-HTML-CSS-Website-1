@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Computer Engineering Final Assignment</title>
+</head>
+<body>
+
+	<div class="header">
+		All About Rauf
+	</div>
+	<div class="board">
+		<div class="card-container">
+			<div class="card">
+				<img src="bike.jpg" alt="My Hobbies" class="avatar">
+				<div class="title">
+					Rauf's Hobbies
+				</div>
+				<div class="detail">
+					Explore Rauf's hobbies and interests!
+				</div>
+				<button onclick="window.location.href='hobbies.html'" class="button">Go</button>
+			</div>
+			<div class="card">
+				<img src="coolguy.jpg" alt="My Biography" class="avatar">
+				<div class="title">
+					Rauf's Autobiography
+				</div>
+				<div class="detail">
+					Learn more about Rauf.
+				</div>
+				<button onclick="window.location.href='autobiography.html'" class="button">Go</button>
+			</div>
+			<div class="card">
+				<img src="funny.jpg" alt="My Fun Facts" class="avatar">
+				<div class="title">
+					Rauf's Fun Facts
+				</div>
+				<div class="detail">
+					Here are some fun facts provided by Rauf.
+				</div>
+				<button onclick="window.location.href='funfacts.html'" class="button">Go</button>
+			</div>
+		</div>
+
+
+		<div class="card-container">
+			<div class="card">
+				<img src="cartoonmap.jpg" alt="My Hobbies" class="avatar">
+				<div class="title">
+					Places Rauf Has Visited
+				</div>
+				<div class="detail">
+					Go around the globe with Rauf!
+				</div>
+				<button onclick="window.location.href='placesvisited.html'" class="button">Go</button>
+			</div>
+
+
+		<div class="card-container">
+			<div class="card2">
+				<div class="title">
+					Sources
+				</div>
+			
+				<button onclick="window.location.href='sources.html'" class="button">
+					Click Here!
+				</button>
+				<div class="detail">
+				</div>
+			</div>
+
+
+		</div>
+		<div class="card-container">
+			<div class="card">
+				<img src="school.jpg" alt="My Hobbies" class="avatar">
+				<div class="title">
+					Rauf's Academia
+				</div>
+				<div class="detail">
+					Navigate Rauf's school journey!
+				</div>
+				<button onclick="window.location.href='academia.html'" class="button">Go</button>
+			</div>
+	</div>
+
+</body>
+</html>
+
+<style>
+	.card-container{
+		text-align: center;
+		display: flex;
+    	justify-content: center;
+    	flex-wrap: wrap;
+	}
+
+	body{
+		padding: 40px;
+		background-color: rgb(228, 228, 228);
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	.header{
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.card{
+		overflow: hidden;
+		width: 250px;
+		height: 390px;
+		border: 3px solid rgb(179, 172, 172);
+		border-radius: 10px;
+		padding: 30px;
+		margin: 10px;
+		text-align: center;
+		background-color: white;
+		transition: 0.3s;
+	}
+
+	.card:hover{
+		transform: scale(1.07, 1.07);
+	}
+
+	.card:hover .button {
+		opacity: 1;
+	}
+
+	.card .button {
+		opacity: 0;
+		margin-top: 15px;
+		width: 100%;
+		height: 45px;
+		cursor: pointer;
+		background-color: rgb(80, 80, 80);
+		color: white;
+		border: 0px;
+		border-bottom-left-radius: 7px;
+		border-bottom-right-radius: 7px;
+		transition: 0.3s;
+		font-size: 17px;
+	}
+
+	.card .avatar{
+		border: 5px solid rgb(92, 89, 89);
+	}
+
+	.card .title{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+
+	.card .detail{
+		margin-top: 9px;
+		font-size: 17px;
+	}
+
+	.card2{
+		overflow: hidden;
+		width: 250px;
+		height: 320px;
+		border: 3px solid rgb(179, 172, 172);
+		border-radius: 10px;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+		background-color: white;
+		transition: 0.3s;
+	}
+
+	.card2 .title{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 45px;
+		margin-bottom: 15px;
+	}
+
+	.card2 .button{
+		margin-top: 50px;
+		width: 100%;
+		height: 90px;
+		cursor: pointer;
+		background-color: rgb(80, 80, 80);
+		color: white;
+		border: 0px;
+		transition: 0.3s;
+		font-size: 17px;
+		border-radius: 10px;
+	}
+
+	.card2 .button:hover{
+		background-color: rgb(143, 143, 143);
+	}
+
+	.card2 .detail{
+		margin-top: 15px;
+		font-size: 17px;
+	}
+</style>
